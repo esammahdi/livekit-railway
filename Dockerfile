@@ -9,5 +9,5 @@ EXPOSE 7880
 # Start LiveKit with your config and bind to the Railway $PORT
 ENTRYPOINT ["/bin/sh", "-c"]
 
-CMD ["/bin/sh", "-c", "/livekit-server --config /etc/livekit/config.yaml --bind 0.0.0.0:$PORT"]
+CMD ["/bin/sh", "-c", "/livekit-server --config /etc/livekit/config.yaml"]
 
