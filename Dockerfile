@@ -1,4 +1,4 @@
-FROM livekit/livekit-server:1.9
+FROM livekit/livekit-server:latest
 
 # Copy your config from the repo into the container
 COPY config.yaml /etc/livekit/config.yaml
