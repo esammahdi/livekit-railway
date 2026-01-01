@@ -1,4 +1,4 @@
-port: 7880
+port: ${PORT}
 log_level: info
 
 keys:
