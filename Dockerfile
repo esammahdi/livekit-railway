@@ -12,4 +12,6 @@ HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
 
 # Start LiveKit with your config and bind to the Railway $PORT
 ENTRYPOINT ["/bin/sh", "-c"]
-CMD ["exec livekit-server --config /etc/livekit/config.yaml --bind 0.0.0.0:$PORT"]
+
+CMD ["/bin/sh", "-c", "/livekit-server --config /etc/livekit/config.yaml --bind 0.0.0.0:$PORT"]
+
