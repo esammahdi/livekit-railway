@@ -2,7 +2,7 @@ port: 7880
 log_level: info
 
 keys:
-  3c37a5cfed37931c6960a45085e90a03: mySecret
+  3c37a5cfed37931c6960a45085e90a03: 91822cbabc77d2f674318480cb0f24f1
 
 rtc:
   port_range_start: 50000
