@@ -4,7 +4,7 @@
     "builder": "DOCKERFILE"
   },
   "deploy": {
-    "startCommand": "livekit-server --config /etc/livekit/config.yaml --bind 0.0.0.0:$PORT",
+    "startCommand": "/bin/sh -c \"exec livekit-server --config /etc/livekit/config.yaml --bind 0.0.0.0:$PORT\"",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }
